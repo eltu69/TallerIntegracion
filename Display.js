@@ -4,6 +4,11 @@ class Display {
         this.valorRUT = '';
     }
 
+    borrar() {
+        this.valorRUT = this.valorRUT.toString().slice(0,-1);
+        this.imprimirValores();
+    }
+
     agregarNumero(numero) {
         this.valorRUT = this.valorRUT + numero;
         this.imprimirValores();
