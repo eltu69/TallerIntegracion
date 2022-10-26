@@ -10,8 +10,10 @@ class Display {
     }
 
     agregarNumero(numero) {
-        this.valorRUT = this.valorRUT + numero;
-        this.imprimirValores();
+        if(this.valorRUT.length<9){
+            this.valorRUT = this.valorRUT + numero;
+            this.imprimirValores();
+        }
     }
 
     imprimirValores() {

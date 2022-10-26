@@ -1,2 +1,0 @@
-# TallerIntegracion
-Taller integraciónt 
